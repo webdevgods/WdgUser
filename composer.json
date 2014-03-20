@@ -36,7 +36,7 @@
     "suggest": {
         "webdevgods/wdg-zf2": "Base set of libraries for using ZF2.",
         "webdevgods/wdg-doctrine2": "Base set of libraries for using doctrine.",
-        "webdevgods/wdg-base": "Base set of libraries for general php deeds."
+        "webdevgods/wdg-base": "Base set of libraries for general PHP deeds."
     },
     "autoload": {
         "psr-0": {
