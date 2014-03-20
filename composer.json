@@ -1,4 +1,31 @@
 {
+    "name": "webdevgods/wdg-user",
+    "description": "Extended ZfcUser module.",
+    "type": "zf-module",
+    "license": "MIT",
+    "keywords": [
+        "library",
+        "libs",
+        "ZF2",
+        "ZfcUser",
+        "Zend Framework",
+        "webdevgods",
+        "wdg",
+        "module"
+    ],
+    "homepage": "https://github.com/webdevgods/WdgUser",
+    "authors": [
+        {
+            "name": "Jessie Green",
+            "email": "jessie.ims@gmail.com",
+            "homepage": "http://jessiegreen.com/"
+        },
+        {
+            "name": "Dustin Moorman",
+            "email": "dustinmoorman@gmail.com",
+            "homepage": "http://dustinmoorman.com/"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "doctrine/doctrine-orm-module": ">=0.7",
@@ -6,9 +33,17 @@
         "zf-commons/zfc-user-doctrine-orm": ">=0.1",
         "bjyoungblood/bjy-authorize": ">=1.2"
     },
+    "suggest": {
+        "webdevgods/wdg-zf2": "Base set of libraries for using ZF2.",
+        "webdevgods/wdg-doctrine2": "Base set of libraries for using doctrine.",
+        "webdevgods/wdg-base": "Base set of libraries for general php deeds."
+    },
     "autoload": {
         "psr-0": {
-            "WdgUser\\": "src/"
-        }
+            "WdgUser": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
