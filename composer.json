@@ -11,7 +11,8 @@
         "Zend Framework",
         "webdevgods",
         "wdg",
-        "module"
+        "module",
+        "user"
     ],
     "homepage": "https://github.com/webdevgods/WdgUser",
     "authors": [
